@@ -1,0 +1,135 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.parallax-container {
+    height: 1010px;
+    padding-bottom: 100px;
+}
+
+#header {
+    color: #fff;
+    font-family: 'Monoton', cursive;
+    font-size: 125px;
+}
+
+#parall {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 1010px;
+    width: 100%;
+}
+
+#introCard {
+    color: #fff;
+    font-size: 30px;
+    margin: 30px 0;
+    background-color: transparent;
+}
+
+#introSection {
+    margin-top: 40px;
+}
+
+#instructionModal {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    font-size: 17px;
+}
+
+#instructionModalFooter {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}
+
+#instructionGIF {
+    margin-top: 30px;
+}
+
+#instructionConfirm {
+    color: #ffeb3b;
+    font-size: 23px;
+}
+
+#instructionConfirm:hover {
+    color: #fff;
+}
+
+/**********************
+    BUTTON STYLING
+***********************/
+
+#buttonRow {
+    margin-top: 130px;
+}
+
+.btn-large {
+    border-radius: 6px;
+    border: #fff 4px solid;
+    line-height: 45px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-large:hover {
+    color: #f1c40f;
+    border: #f1c40f 4px solid;
+}
+
+
+/********************
+  QUESTIONS STYLES
+*********************/
+
+#questionSpace {
+    color: #fff;
+    margin-top: 40px;
+    /*border: #fff 5px solid;
+  border-radius: 6px;*/
+    padding: 10px;
+    width: 1000px;
+    height: 500px;
+}
+
+#question {
+    font-size: 37px;
+}
+
+/********************
+*********************/
+
+#timer {
+    color: #e74c3c;
+    font-size: 47px;
+}
+
+/********************
+  ANSWERS STYLES
+*********************/
+
+#choices {
+    font-size: 30px;
+}
+
+.pickAnswer {
+    border: solid 5px #fff;
+}
+
+.pickAnswer, .pickAnswer:hover {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.pickAnswer:hover {
+    border: solid 5px #f1c40f;
+    cursor: pointer;
+}
